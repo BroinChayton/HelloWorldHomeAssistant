@@ -1,0 +1,9 @@
+name: Hello World
+version: "1.0.0"
+slug: hello_world
+startup: application
+boot: auto
+description: "Ein einfaches Add-on, das 'Hallo Welt' ausgibt."
+homeassistant_api: false
+options: {}
+schema: {}
