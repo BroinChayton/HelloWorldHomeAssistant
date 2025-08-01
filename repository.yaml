@@ -1,3 +1,5 @@
 name: Hello World Add-on
 url: https://github.com/BroinChayton/HelloWorldHomeAssistant
 maintainer: Broin Chayton <office@bitcoinsolution.at>
+addons:
+  - hello_world
