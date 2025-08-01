@@ -6,5 +6,7 @@ boot: auto
 description: "Ein einfaches Add-on, das 'Hallo Welt' ausgibt."
 homeassistant_api: false
 icon: "icon.png"
+arch:
+  - amd64
 options: {}
 schema: {}
