@@ -8,7 +8,8 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 # Dateien kopieren
 COPY . .
-RUN chmod +x run.sh
+RUN chmod +x /app/run.sh
+
 
 
 # Shell-Skript ausführen

@@ -1,27 +1,24 @@
-from flask import Flask, render_template_string
+import logging
+from flask import Flask
+
+# Logging konfigurieren
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
+
+logger.info("[main.py] Initialisiere Flask App...")
+
 app = Flask(__name__)
 
-HTML = '''
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Hello World Add-on</title>
-    <script>
-      function sayHello() {
-        alert("Hello World!");
-      }
-    </script>
-  </head>
-  <body>
-    <h1>Hello from Add-on</h1>
-    <button onclick="sayHello()">Hello</button>
-  </body>
-</html>
-'''
+@app.route("/")
+def hello():
+    logger.info("[main.py] GET / aufgerufen")
+    return '''
+        <html><body>
+        <h1>Hello World</h1>
+        <button onclick="alert('Hello World!')">Click me</button>
+        </body></html>
+    '''
 
-@app.route('/')
-def index():
-    return render_template_string(HTML)
-
-if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=8080)
+if __name__ == "__main__":
+    logger.info("[main.py] Starte Flask Server auf 0.0.0.0:8080 ...")
+    app.run(host="0.0.0.0", port=8080)
