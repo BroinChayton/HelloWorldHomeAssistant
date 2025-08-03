@@ -10,7 +10,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 RUN chmod +x /app/run.sh
 
-
+EXPOSE 8080
 
 # Shell-Skript ausführen
 CMD ["/bin/sh", "/app/run.sh"]
