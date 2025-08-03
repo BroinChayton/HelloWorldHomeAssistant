@@ -1,12 +1,15 @@
-FROM python:3.11-slim
+FROM python:3.11-alpine
 
 WORKDIR /app
 
+# Abhängigkeiten installieren
 COPY requirements.txt ./
 RUN pip install --no-cache-dir -r requirements.txt
 
-COPY run.sh ./run.sh
-COPY main.py ./main.py
+# Dateien kopieren
+COPY . .
+RUN chmod +x run.sh
 
-RUN chmod a+x run.sh
-CMD ["/app/run.sh"]
+
+# Shell-Skript ausführen
+CMD ["/bin/sh", "/app/run.sh"]

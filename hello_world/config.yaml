@@ -1,12 +1,16 @@
-name: Hello World
-version: "1.0.0"
-slug: hello_world
-startup: application
-boot: auto
-description: "Ein einfaches Add-on, das 'Hallo Welt' ausgibt."
-homeassistant_api: false
-icon: "icon.png"
+name: "Hello World"
+version: "1.0.1"
+slug: "hello_world"
+description: "Ein einfaches Hello-World-Add-on mit UI"
+startup: services
+ingress: true
+panel_icon: mdi:emoticon-happy
+panel_title: Hello
+init: false
+homeassistant_api: true
 arch:
   - amd64
-options: {}
-schema: {}
+  - aarch64
+  - armv7
+ports:
+  8080/tcp: null
