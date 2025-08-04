@@ -1,11 +1,12 @@
 name: "Hello World"
-version: "1.0.4"
+version: "1.0.5"
 slug: "hello_world"
 description: "Ein einfaches Hello-World-Add-on mit UI"
 startup: services
 ingress: true
-ingress_ui: true
-panel_admin: true
+ingress_port: 8080    # Use 8080 since your app listens on 8080
+#ingress_ui: true
+#panel_admin: true
 panel_icon: mdi:emoticon-happy
 panel_title: Hello
 init: false
