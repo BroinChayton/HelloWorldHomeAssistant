@@ -1,5 +1,5 @@
 name: "Hello World"
-version: "1.0.6"
+version: "1.0.7"
 slug: "hello_world"
 description: "Ein einfaches Hello-World-Add-on mit UI"
 startup: services

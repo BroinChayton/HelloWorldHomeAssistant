@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11eb98b4-ba63-41df-90f6-f5c7daaafac0" name="Changes" comment="versuch 3">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="11eb98b4-ba63-41df-90f6-f5c7daaafac0" name="Changes" comment="versuch 6" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,7 +67,7 @@
       <workItem from="1754257485303" duration="2385000" />
       <workItem from="1754287567199" duration="270000" />
       <workItem from="1754287862402" duration="3185000" />
-      <workItem from="1754302310826" duration="748000" />
+      <workItem from="1754302310826" duration="1538000" />
     </task>
     <task id="LOCAL-00001" summary="inital push">
       <option name="closed" value="true" />
@@ -151,7 +149,15 @@
       <option name="project" value="LOCAL" />
       <updated>1754293477934</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="versuch 6">
+      <option name="closed" value="true" />
+      <created>1754303605463</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1754303605463</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,7 +170,8 @@
     <MESSAGE value="versuch 1" />
     <MESSAGE value="versuch 2" />
     <MESSAGE value="versuch 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="versuch 3" />
+    <MESSAGE value="versuch 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="versuch 6" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/hello_world_addon$main.coverage" NAME="main Coverage Results" MODIFIED="1754287885107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hello_world" />
