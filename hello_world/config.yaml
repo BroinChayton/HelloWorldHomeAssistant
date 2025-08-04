@@ -1,9 +1,11 @@
 name: "Hello World"
-version: "1.0.3"
+version: "1.0.4"
 slug: "hello_world"
 description: "Ein einfaches Hello-World-Add-on mit UI"
 startup: services
 ingress: true
+ingress_ui: true
+panel_admin: true
 panel_icon: mdi:emoticon-happy
 panel_title: Hello
 init: false
