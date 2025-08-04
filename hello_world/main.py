@@ -20,5 +20,5 @@ def hello():
     '''
 
 if __name__ == "__main__":
-    logger.info("[main.py] Starte Flask Server auf 0.0.0.0:8080 ...")
-    app.run(host="0.0.0.0", port=8080, use_reloader=False)
+    logger.info("[main.py] Starte Flask Server auf 0.0.0.0:19810 ...")
+    app.run(host="0.0.0.0", port=19810, use_reloader=False)
